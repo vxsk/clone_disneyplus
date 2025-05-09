@@ -37,6 +37,10 @@
                 transition: height, .5s ease; 
             }
 
+            &__link {
+                text-decoration: none;
+            }
+
             &--is-open {
                 .faq__questions__item__question::after {
                     content: '-';
